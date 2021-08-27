@@ -1,7 +1,2 @@
 ##Gene Co-Expression Analysis Tool
-This tool generates a user-friendly output that helps to look at correlation patterns among gene expression in RNA-Seq data to scRNA-Seq data.
-The input files required for this tool are two CSV/text files with differential gene expression (DGE) data from either an RNA-seq experiment or a scRNA-seq experiment. 
-The tool filters for the significant genes among two datasets and sorts them based on log2fold change ranges. Once sorted out, the ranges are compared between the two input files. 
-This allows users to look at gene expression data at a closer level and find correlational patterns among two DGE lists. 
-This tool can help identify gene candidates with regulatory roles, genes with tissue-specific correlations, and much more. 
-However, the output is just a relative comparison. Conclusions need to be derived based on further experimental data.
+This tool generates a user-friendly output that helps to look at correlation patterns among gene expression in RNA-Seq data to scRNA-Seq data. The input files required for this tool are two CSV/text files with differential gene expression (DGE) data from either an RNA-seq experiment or a scRNA-seq experiment. The tool filters for the significant genes among two datasets and sorts them based on log2fold change ranges. Once sorted out, the ranges are compared between the two input files. This allows users to look at gene expression data at a closer level and find correlational patterns among two DGE lists. This tool can help identify gene candidates with regulatory roles, genes with tissue-specific correlations, and much more. However, the output is just a relative comparison. Conclusions need to be derived based on further experimental data.
